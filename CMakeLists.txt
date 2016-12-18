@@ -7,6 +7,7 @@ add_message_files(
   DIRECTORY msg
   FILES
   Velocities.msg
+  PID.msg
 )
 
 generate_messages(DEPENDENCIES std_msgs)
