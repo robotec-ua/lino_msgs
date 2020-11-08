@@ -26,7 +26,7 @@ The package contains custom ROS messages for Robotec projects.
 ### Files
 * `Battery.msg`
 
-    message type which contains data about batteries
+    Message type which contains data about batteries
 
 * `FiducialArray.msg`
 
@@ -46,7 +46,7 @@ The package contains custom ROS messages for Robotec projects.
 
 * `Imu.msg`
 
-    data from IMU (inertial measurement unit) for navigation
+    Data from IMU (inertial measurement unit) for navigation
 
 * `PID.msg`
 
@@ -54,4 +54,4 @@ The package contains custom ROS messages for Robotec projects.
 
 * `Velocities.msg`
 
-    full velocity data in vector representation
+    Full velocity data in vector representation
