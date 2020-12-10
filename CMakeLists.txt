@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(lino_msgs)
+project(robotec_msgs)
 
 find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msgs)
 
@@ -9,6 +9,11 @@ add_message_files(
   Velocities.msg
   PID.msg
   Imu.msg
+)
+
+add_service_files(
+  FILES
+  SetPose.srv
 )
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
